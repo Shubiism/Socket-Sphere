@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://socket-sphere-backend-production.up.railway.app');
 
 const form = document.getElementById('send-container');
 const msgInp = document.getElementById('msgInp');
